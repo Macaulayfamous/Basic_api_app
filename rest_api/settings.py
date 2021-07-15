@@ -12,9 +12,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-@a8vtmty+l3wowd58rveh-guj@o4^y62va@7&_5g7hwb+*c+2n'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['smallapiapp.herokuapp.com/']
+ALLOWED_HOSTS = ['smallapiapp.herokuapp.com']
 
 
 # Application definition
